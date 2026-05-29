@@ -1,0 +1,20 @@
+defi-open-finance/
+│
+├── contracts/          # Smart contracts in Solidity
+│   ├── Savings.sol     # Users deposit tokens & earn interest
+│   ├── Lending.sol     # Users borrow tokens with collateral
+│   └── Token.sol       # ERC-20 token implementation
+│
+├── frontend/           # React/Next.js frontend
+│   ├── pages/
+│   ├── components/
+│   └── hooks/
+│
+├── scripts/            # Deployment & testing scripts
+│   └── deploy.js
+│
+├── test/               # Unit tests (Hardhat/Foundry)
+│   └── savings.test.js
+│
+├── README.md           # Project documentation
+└── package.json
